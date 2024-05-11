@@ -1,6 +1,6 @@
 {
-  "name": "@aingtea/nuaing_tea",
-  "version": "1.0.3",
+  "name": "nu_aing",
+  "version": "1.0.7",
   "description": "Template project to start building IBC enabled Solidity contracts, with Hardhat and Foundry support",
   "main": "index.js",
   "scripts": {
@@ -8,29 +8,48 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nuaingtea/nuaing_tea"
+    "url": "git+https://github.com/Nuaingtea/nu_aing.git"
   },
   "keywords": [
     "IBC",
     "Solidity"
   ],
-  "author": "Polymer Labs",
+  "author": "Nu_aing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nuaingtea/nuaing_tea/issues"
+    "url": "https://github.com/Nuaingtea/nu_aing/issues"
   },
-  "homepage": "https://github.com/Nuaingtea/nuaing_tea#readme",
+  "homepage": "https://github.com/Nuaingtea/nu_aing#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-foundry": "^1.1.1",
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "hardhat": "^2.19.5"
   },
   "dependencies": {
+    "@aingtea/nuaing_tea": "^1.2.0",
+    "@devprasant/learns": "^1.0.3",
+    "@justinfoair/justinfotea": "^1.1.9",
     "@openzeppelin/contracts": "^4.7.6",
+    "@vbrick/rev-client": "^0.15.0",
+    "airdropfind": "^1.1.6",
+    "airdropfinder": "^1.0.1",
     "axios": "^1.6.7",
+    "configstore": "^6.0.0",
+    "data-uri-to-buffer": "^6.0.2",
     "dotenv": "^16.4.1",
+    "fetch-blob": "^4.0.0",
+    "formdata-polyfill": "^4.0.10",
+    "generator-badge": "^1.2.0",
     "hardhat-verify": "^1.0.0",
-    "nuaing_tea": "^1.1.2"
+    "infotea": "^1.2.0",
+    "is-url": "^1.2.4",
+    "justinfotea": "^1.1.7",
+    "node-fetch": "^3.3.2",
+    "nu_aing": "^1.0.4",
+    "nuaing_tea": "^1.2.4",
+    "readline-sync": "^1.4.10",
+    "translate-google": "^1.5.0",
+    "web-streams-polyfill": "^4.0.0"
   },
   "directories": {
     "lib": "lib"
